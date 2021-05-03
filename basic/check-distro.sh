@@ -50,5 +50,5 @@ if [[ $1 == "true" ]] || [[ $1 == "execute" ]] || [[ $1 == "0" ]]; then
 	# If the user entered the argument to directly execute the script, then we continue to do it
 
 	# Displaying the information fetched on the console screen
-	echo -e "Information fetched : \n[$] Linux base : ${linuxBase}\n[$] Linux distro : ${linuxDistro}"
+	echo -e "Information fetched : \n[\033[93m$\033[00m] Linux base : \033[92m${linuxBase}\033[00m\n[\033[93m$\033[00m] Linux distro : \033[92m${linuxDistro}\033[00m"
 fi
